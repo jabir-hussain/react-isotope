@@ -3,3 +3,37 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.container {
+  position: relative;
+  margin-top: 20px;
+}
+
+.filter-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  width: 400px;
+  padding: 20px;
+}
+.filter {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.filter > input {
+  width: 0;
+  height: 0;
+}
+.filter > input:checked + label {
+  color: blue;
+  border-color: blue;
+}
+
+.filter > label {
+  padding: 5px;
+  border-bottom: 2px solid transparent;
+}
+.filter > label:hover {
+  color: blue;
+  cursor: pointer;
+}
