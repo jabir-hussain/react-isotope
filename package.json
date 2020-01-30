@@ -1,10 +1,10 @@
 {
   "name": "react-isotope",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "",
   "author": "jabirhussainturi",
   "license": "MIT",
-  "repository": "jabirhussainturi/react-isotope",
+  "repository": "jabir-hussain/react-isotope",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
@@ -21,9 +21,7 @@
     "predeploy": "cd example && yarn install && yarn run build",
     "deploy": "gh-pages -d example/build"
   },
-  "dependencies": {
-    "react-spring": "^8.0.27"
-  },
+  "dependencies": {},
   "peerDependencies": {
     "prop-types": "^15.5.4",
     "react": "^15.0.0 || ^16.0.0",
