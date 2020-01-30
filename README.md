@@ -18,7 +18,12 @@ So we can learn the usage of `react-isotope` by a simple example step by step.
 
 Here is the gif demo that we are going to implement;
 
-<img src="gridlayout.gif" alt="Markdown Monster icon" style="float: left; margin-right: 10px; margin: 20px auto; width: 100%; height: 400px; object-fit: contain;" />
+<iframe
+  src="https://codesandbox.io/embed/react-isotope-8imre?fontsize=14&hidenavigation=1&theme=dark"
+  style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
+  allow="geolocation; microphone; camera; midi; vr; accelerometer; gyroscope; payment; ambient-light-sensor; encrypted-media; usb"
+  sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"
+></iframe>
 
 So in above demo we have two main components
 
