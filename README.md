@@ -14,19 +14,9 @@ npm install --save react-isotope
 
 As this library expose one component with name "IsotopeGrid", as name suggests that this component also provides generating gridlayout without tears and applying filtering to the grid items with eye catching animation of items hide/show and re-arrage the position.
 
+For the interactive demo please visite [codesandbox](https://codesandbox.io/embed/react-isotope-8imre?fontsize=14&hidenavigation=1&theme=dark);
+
 So we can learn the usage of `react-isotope` by a simple example step by step.
-
-Here is the gif demo that we are going to implement;
-
-<iframe
-     src="https://codesandbox.io/embed/react-isotope-8imre?fontsize=14&hidenavigation=1&theme=dark"
-     style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
-     title="react-isotope"
-     allow="geolocation; microphone; camera; midi; vr; accelerometer; gyroscope; payment; ambient-light-sensor; encrypted-media; usb"
-     sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"
-   ></iframe>
-
-So in above demo we have two main components
 
 1. Filters `all`, `test`, `test1`, `chart` and `tile`
 2. Gridlayout with 7 cards `a`, `b` and etc...
@@ -35,11 +25,11 @@ So in above demo we have two main components
 
 ```json
 export [
-  { label: "all", isChecked: true },
-  { label: "test", isChecked: false },
-  { label: "test1", isChecked: false },
-  { label: "chart", isChecked: false },
-  { label: "tile", isChecked: false }
+  { "label": "all", "isChecked": true },
+  { "label": "test", "isChecked": false },
+  { "label": "test1", "isChecked": false },
+  { "label": "chart", "isChecked": false },
+  { "label": "tile", "isChecked": false }
 ];
 ```
 
@@ -48,60 +38,60 @@ export [
 ```json
 export [
   {
-    id: "a",
-    row: 0,
-    col: 0,
-    w: 1,
-    h: 1,
-    filter: ["test", "chart"]
+    "id": "a",
+    "row": 0,
+    "col": 0,
+    "w": 1,
+    "h": 1,
+    "filter": ["test", "chart"]
   },
   {
-    id: "b",
-    row: 0,
-    col: 1,
-    w: 1,
-    h: 1,
-    filter: ["test1", "tile"]
+    "id": "b",
+    "row": 0,
+    "col": 1,
+    "w": 1,
+    "h": 1,
+    "filter": ["test1", "tile"]
   },
   {
-    id: "c",
-    row: 0,
-    col: 3,
-    w: 1,
-    h: 1,
-    filter: ["test", "chart"]
+    "id": "c",
+    "row": 0,
+    "col": 3,
+    "w": 1,
+    "h": 1,
+    "filter": ["test", "chart"]
   },
   {
-    id: "d",
-    row: 1,
-    col: 0,
-    w: 1,
-    h: 1,
-    filter: ["test1", "tile"]
+    "id": "d",
+    "row": 1,
+    "col": 0,
+    "w": 1,
+    "h": 1,
+    "filter": ["test1", "tile"]
   },
   {
-    id: "e",
-    row: 1,
-    col: 1,
-    w: 1,
-    h: 1,
-    filter: ["test", "tile"]
+    "id": "e",
+    "row": 1,
+    "col": 1,
+    "w": 1,
+    "h": 1,
+    "filter": ["test", "tile"]
   },
   {
-    id: "f",
-    row: 1,
-    col: 2,
-    w: 1,
-    h: 1,
-    filter: ["test1", "chart"]
+    "id": "f",
+    "row": 1,
+    "col": 2,
+    "w": 1,
+    "h": 1,
+    "filter": ["test1", "chart"]
   },
   {
-    id: "h",
-    row: 2,
-    col: 0,
-    w: 1,
-    h: 1,
-    filter: ["test1", "chart"]
+    "id": "h",
+    "row": 2,
+    "col": 0,
+    "w": 1,
+    "h": 1,
+    "filter": ["test1", "chart"]
   }
 ];
 
