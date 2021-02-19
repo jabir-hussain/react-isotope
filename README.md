@@ -133,7 +133,7 @@ export default function App() {
 
   return (
     <div className="App">
-      {// Filter component }
+      {/*Filter component*/}
       <div className="filter-container">
         {filters.map(f => (
           <div className="filter" key={`${f.label}_key`}>
